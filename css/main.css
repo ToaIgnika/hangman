@@ -1,0 +1,59 @@
+body {
+    background-color: #4d648d;
+}
+
+#main, #bar, #status, #keyboard {
+    text-align: center;
+}
+
+#bar{
+    background-color: #1e1f26;
+    color: whitesmoke;
+    padding: 18px;
+}
+#bar h3{
+    margin:0;
+}
+
+
+#main{
+    background-color: #d0e1f9;
+}
+
+#main img{
+    max-height: 30vh;
+    min-height: 10vh;
+}
+
+#status{
+    background-color: #283655;
+    color: whitesmoke;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+h2{
+    letter-spacing: 10px;
+}
+
+
+.butn-group button {
+    color: white; /* White text */
+    border: 1px solid white;
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.butn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.butn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
