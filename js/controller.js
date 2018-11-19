@@ -124,5 +124,5 @@ function next_word() {
     }
 }
 
-readTextFile("http://phf.jhh.mybluehost.me/hangman/words.txt");
+readTextFile("https://toaignika.github.io/hangman/words.txt");
 game(get_word());
